@@ -1,0 +1,27 @@
+article {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 3vw;
+  width: 20vw;
+  height: 20vw;
+  .title {
+    height: 20%;
+  }
+
+  .picture {
+    height: 60%;
+  }
+
+  .description {
+    height: 20%;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  img {
+    width: 100%;
+  }
+}

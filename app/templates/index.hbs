@@ -1,6 +1,13 @@
 <section>
-  {{#each contentBoxes as |contentBox|}}
-    {{content-box model=contentBox}}
-  {{/each}}
+  <div class='portfolio-title'>
+    <h1>
+      Portfolio
+    </h1>
+  </div>
+  <div class='content-boxes'>
+    {{#each contentBoxes as |contentBox|}}
+      {{content-box model=contentBox}}
+    {{/each}}
+  </div>
 </section>
 {{outlet}}

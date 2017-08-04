@@ -1,13 +1,15 @@
 article {
-  border: 2px solid black;
-  border-radius: 10px;
+  border: 0.25vw solid #586F7C;
+  border-radius: 5vw;
   margin: 3vw;
   width: 20vw;
   height: 20vw;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  padding: 2vw;
   .title {
     font-size: 1.5vw;
-    justify-content: center;
-    align-items: center;
     height: 20%;
   }
 

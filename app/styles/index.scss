@@ -1,7 +1,13 @@
 section {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-direction: row;
-  flex-direction: row;
-  width: 100%;
+  .portfolio-title {
+    float: left;
+    width: 100%;
+  }
+  .content-boxes {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    width: 100%;
+  }
 }

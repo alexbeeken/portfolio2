@@ -18,6 +18,12 @@ export function initialize(appInstance) {
       picture: 'time.jpeg',
       description: 'Interactive Timeline for Exploring Mono Lake Data',
       target: 'https://mono-lake-timeline.herokuapp.com'
+    },
+    {
+      title: 'Cantus Firmus Generator',
+      picture: 'cantusfirmus.jpeg',
+      description: 'Automatically generate simple musical phrases',
+      target: 'https://golfcards.herokuapp.com/'
     }
   ]
 

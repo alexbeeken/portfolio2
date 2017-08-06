@@ -1,27 +1,36 @@
-article {
-  border: 0.25vw solid #586F7C;
-  border-radius: 5vw;
-  margin: 3vw;
-  width: 20vw;
-  height: 20vw;
+.content-box {
+  border: 2px solid $base-black;
+  box-shadow: 2px 2px 1px $box-shadow;
+  background-color: $content-box-background;
+  border-radius: 40px;
+  margin: 30px;
+  width: 250px;
+  height: 250px;
   text-align: center;
   justify-content: center;
   align-content: center;
-  padding: 2vw;
+  padding: 30px;
+
+  &:hover {
+    box-shadow: 5px 5px 3px $box-shadow;
+  }
   .title {
-    font-size: 1.5vw;
+    font-weight: bold;
+    padding-top: 15px;
+    font-size: 20px;
     height: 20%;
   }
 
   .picture {
     img {
       width: 100%;
+      border: 1px solid $base-black;
     }
     height: 60%;
   }
 
   .description {
-    font-size: 1vw;
+    font-size: 12px;
     text-align: center;
     justify-content: center;
     align-items: center;

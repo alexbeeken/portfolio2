@@ -1,3 +1,8 @@
+@import 'variables';
 @import 'header';
 @import 'index';
 @import 'components/content-box';
+
+body {
+  background-color: $background-color;
+}

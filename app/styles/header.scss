@@ -1,50 +1,68 @@
 header {
   white-space: nowrap;
   overflow: hidden;
-
-  .name {
-    float: left;
-    width: 100%;
-    font-size: 2vw;
-  }
-
-  .linkedin {
-    float: left;
-  }
-
-  .details {
+  background-color: $header-color;
+  padding-left: 10px;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  border: 2px solid $base-black;
+  .title {
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    width: 500px;
+    .name {
+      font-size: 70px;
+      float: left;
+      width: 50%;
+    }
     .profession {
-      width: 100%;
-      font-size: 1.3vw;
+      width: 50%;
+      font-size: 20px;
     }
     .linkedin {
-      width: 100%;
+      background-color: #007bb5;
+    }
+    .github {
+      background-color: #444;
+    }
+    .social {
+      width: 40px;
+      height: 40px;
+      border-radius: 5px;
+      margin: 10px;
+      float: left;
     }
     .contact {
       float: left;
-      width: 100%;
-      font-size: 1vw;
+      width: 50%;
+      font-size: 16px;
     }
-    width: 100%;
-    float: left;
+  }
+  .photo {
+    width: 30%;
+    float: right;
+    img {
+      height: 200px;
+      width: auto;
+      border: 2px solid $base-black;
+    }
   }
 }
 
 .fa {
-  padding-top: 1vw;
-  font-size: 2vw;
-  width: 3vw;
-  height: 3vw;
+  padding-top: 10px;
+  font-size: 25px;
   text-align: center;
   text-decoration: none;
-  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  color: white;
 }
 
 .fa:hover {
-    opacity: 0.7;
-}
-
-.fa-linkedin {
-    background: #007bb5;
-    color: white;
+  opacity: 0.7;
 }

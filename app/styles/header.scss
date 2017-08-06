@@ -1,4 +1,6 @@
 header {
+  border: 2px solid $base-black;
+  box-shadow: 2px 2px 1px $box-shadow;
   white-space: nowrap;
   overflow: hidden;
   background-color: $header-color;
@@ -8,7 +10,6 @@ header {
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
   justify-content: center;
-  border: 2px solid $base-black;
   text-align: left;
   justify-content: space-between;
   padding-left: 10px;

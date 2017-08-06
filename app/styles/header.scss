@@ -1,6 +1,5 @@
 header {
-  border: 2px solid $base-black;
-  box-shadow: 2px 2px 1px $box-shadow;
+  border: 2px solid $border-color;
   white-space: nowrap;
   overflow: hidden;
   background-color: $header-color;
@@ -40,10 +39,6 @@ header {
       margin: 10px;
       float: left;
     }
-    .social-icons {
-      display: flex;
-      flex-direction: row;
-    }
     .contact {
       float: left;
       width: 100%;
@@ -55,13 +50,13 @@ header {
     img {
       height: 200px;
       width: auto;
-      border: 2px solid $base-black;
+      border: 2px solid $border-color;
     }
   }
 }
 
 .fa {
-  padding-top: 10px;
+  padding: 10px;
   font-size: 25px;
   text-decoration: none;
   width: 40px;

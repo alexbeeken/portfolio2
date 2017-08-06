@@ -1,6 +1,5 @@
 .content-box {
-  border: 2px solid $base-black;
-  box-shadow: 2px 2px 1px $box-shadow;
+  border: 2px solid $border-color;
   background-color: $content-box-background;
   border-radius: 40px;
   margin: 30px;
@@ -12,7 +11,7 @@
   padding: 30px;
 
   &:hover {
-    box-shadow: 5px 5px 3px $box-shadow;
+    box-shadow: 0 0 3px 3px $box-shadow;
   }
   .title {
     font-weight: bold;
@@ -24,7 +23,7 @@
   .picture {
     img {
       width: 100%;
-      border: 1px solid $base-black;
+      border: 1px solid $border-color;
     }
     height: 60%;
   }

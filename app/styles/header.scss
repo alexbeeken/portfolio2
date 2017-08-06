@@ -9,8 +9,9 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   border: 2px solid $base-black;
-  text-align: center;
-  justify-content: center;
+  text-align: left;
+  justify-content: space-between;
+  padding-left: 10px;
   .title {
     display: flex;
     -webkit-flex-direction: column;
@@ -41,7 +42,6 @@ header {
     .social-icons {
       display: flex;
       flex-direction: row;
-      justify-content: center;
     }
     .contact {
       float: left;
@@ -50,8 +50,8 @@ header {
     }
   }
   .photo {
+    margin: 10px;
     img {
-      float: right;
       height: 200px;
       width: auto;
       border: 2px solid $base-black;

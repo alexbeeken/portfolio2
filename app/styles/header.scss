@@ -1,17 +1,17 @@
 header {
-  border: 2px solid $border-color;
   white-space: nowrap;
   overflow: hidden;
+  border: 2px solid $border-color;
   background-color: $header-color;
   display: flex;
   -webkit-flex-direction: row;
   flex-direction: row;
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
-  justify-content: center;
-  text-align: left;
+  text-align: center;
   justify-content: space-between;
   padding-left: 10px;
+  font-family: $header-font;
   .title {
     display: flex;
     -webkit-flex-direction: column;
@@ -37,7 +37,11 @@ header {
       height: 40px;
       border-radius: 5px;
       margin: 10px;
-      float: left;
+    }
+    .social-icons {
+      display: flex;
+      -webkit-flex-direction: row;
+      justify-content: center;
     }
     .contact {
       float: left;
@@ -59,8 +63,6 @@ header {
   padding: 10px;
   font-size: 25px;
   text-decoration: none;
-  width: 40px;
-  height: 40px;
   color: white;
 }
 

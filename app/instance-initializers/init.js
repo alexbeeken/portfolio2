@@ -24,6 +24,12 @@ export function initialize(appInstance) {
       picture: 'cantusfirmus.jpeg',
       description: 'Automatically generate simple musical phrases',
       target: 'https://golfcards.herokuapp.com/'
+    },
+    {
+      title: 'Mr. Beeken',
+      picture: 'mrbeeken.jpg',
+      description: 'Educational Youtube Channel for budding musicians.',
+      target: 'https://www.youtube.com/channel/UCtZ04kW3xThhfO4PCfvGaNQ'
     }
   ]
 
